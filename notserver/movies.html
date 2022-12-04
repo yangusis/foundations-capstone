@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Movies: Higher or Lower</title>
+  </head>
+  <body>
+    <header class="text">Which has a higher rating (out of 10)?</header>
+    <p id="highScore"></p>
+    <p id="currentScore" class="subText"></p>
+    <div id="movieFrame" class="higherLowerFrame">
+      <button id="movieStart" class="subButton">Start</button>
+      <a href="/" id="menuLink">
+        <button id="menu" class="subButton">Main Menu</button>
+      </a>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script type="module" src="./index.js" defer></script>
+    </div>
+    <footer id="textResult" class="text"></footer>
+  </body>
+</html>
